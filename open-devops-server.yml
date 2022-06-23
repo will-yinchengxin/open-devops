@@ -1,0 +1,20 @@
+mysql_s:
+  - name: stree
+    addr: "root:k5ztqiGr@tcp(124.70.147.129:3306)/w_open_devops?charset=utf8&parseTime=true&loc=Asia%2FShanghai"
+    max: 128
+    idle: 16
+    debug: false
+
+rpc_addr: 0.0.0.0:8087
+
+http_addr: 0.0.0.0:8080
+
+public_cloud_sync:
+  #enable: true  # 开关: 控制是否开启公有云
+  enable: false
+
+index_modules:
+  - enable: true
+    resource_name: resource_host
+    modulus: 0
+    num: 0
